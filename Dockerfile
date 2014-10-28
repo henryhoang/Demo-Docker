@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Henry HOang <henry.hoang@j2.com>
+MAINTAINER Henry Hoang <henry.hoang@j2.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq apt-utils
 RUN DEBIAN_FRONTEND==noninteractive apt-get install -yq htop
