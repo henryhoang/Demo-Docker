@@ -4,7 +4,7 @@
 clear
 
 echo '__________________'
-echo  "$*"
+#echo  "$*"
 echo "Hello world!"
 
 echo '------------------'
