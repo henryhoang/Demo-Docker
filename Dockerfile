@@ -6,7 +6,7 @@ RUN DEBIAN_FRONTEND==noninteractive apt-get install -yq htop
 RUN apt-get clean
 
 CMD ["htop"]
-CMD ["ls", "-l"]
+#CMD ["ls", "-l"]
 
 WORKDIR /root
 ENV DZ version1
